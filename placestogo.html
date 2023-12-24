@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week3-assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container-fluid text-center">
+
+<!--navigation and navbar with collapse-->
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand">
+                <h1>New York City</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="colleges.html">Colleges</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="placestogo.html">Places to Go <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+    <!--grid with collapse and use class card selector-->
+    <div class="row">
+        <div class="col-md-4">
+            <div id="card-1" class="card"></div>
+            <img src="https://travel.usnews.com/dims4/USNEWS/2dd7da6/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FCentral_Park_green_grass_Andrey_Denisyuk_Getty.jpg" class="card-img-top" alt="centeral park" >
+            <div class="card-body">
+                <h5 class="card-title">Central Park</h5>
+                <a href="#" class="btn btn-primary btn-lg">More Info</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+                <div id="card-2" class="card"></div>
+                <img src="https://travel.usnews.com/dims4/USNEWS/4eb1e5f/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2F911_reflecting_pool_getty_Matthew_T._Carroll.jpg" class="card-img-top" alt="National September 11 Memorial & Museum" >
+                <div class="card-body">
+                    <h5 class="card-title">National Memorial Museum</h5>
+                    <a href="#" class="btn btn-primary btn-lg">More Info</a>
+                </div>
+        </div>
+        <div class="col-md-4">
+                <div id="card-3" class="card"></div>
+                <img src="https://travel.usnews.com/dims4/USNEWS/4aee1bb/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FEmpire_State_Building_Getty_Zsolt_Hlinka.jpg" class="card-img-top" alt="Empire State Building" >
+                <div class="card-body">
+                    <h5 class="card-title">Empire State Building</h5>
+                    <a href="#" class="btn btn-primary btn-lg">More Info</a>
+                </div>
+        </div>
+
+
+        </div>
+    </div>
+    
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>
